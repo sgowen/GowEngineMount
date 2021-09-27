@@ -316,56 +316,17 @@
 		BBBBD6DA27023B5400D7D319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBBD6DB27023B5400D7D319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBBD6DC27023B5400D7D319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBBBD6DD27023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BBBBD6E227023B5400D7D319 /* GowEngineMount.cbp */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.cbp; sourceTree = "<group>"; };
 		BBBBD6E327023B5400D7D319 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
-		BBBBD6E427023B5400D7D319 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BBBBD6E527023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BBBBD6E627023B5400D7D319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BBBBD6E927023B5400D7D319 /* proguard-rules.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = "proguard-rules.pro"; sourceTree = "<group>"; };
-		BBBBD6EA27023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BBBBD6EB27023B5400D7D319 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
-		BBBBD6F027023B5400D7D319 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		BBBBD6F127023B5400D7D319 /* ic_launcher_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_round.png; sourceTree = "<group>"; };
-		BBBBD6F327023B5400D7D319 /* ic_launcher_foreground.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ic_launcher_foreground.xml; sourceTree = "<group>"; };
-		BBBBD6F527023B5400D7D319 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		BBBBD6F627023B5400D7D319 /* ic_launcher_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_round.png; sourceTree = "<group>"; };
-		BBBBD6F827023B5400D7D319 /* ic_launcher_background.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ic_launcher_background.xml; sourceTree = "<group>"; };
-		BBBBD6FA27023B5400D7D319 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		BBBBD6FB27023B5400D7D319 /* ic_launcher_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_round.png; sourceTree = "<group>"; };
-		BBBBD6FD27023B5400D7D319 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		BBBBD6FE27023B5400D7D319 /* ic_launcher_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_round.png; sourceTree = "<group>"; };
-		BBBBD70027023B5400D7D319 /* themes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = themes.xml; sourceTree = "<group>"; };
-		BBBBD70227023B5400D7D319 /* colors.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
-		BBBBD70327023B5400D7D319 /* themes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = themes.xml; sourceTree = "<group>"; };
 		BBBBD70427023B5400D7D319 /* strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
-		BBBBD70627023B5400D7D319 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		BBBBD70727023B5400D7D319 /* ic_launcher_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_round.png; sourceTree = "<group>"; };
-		BBBBD70927023B5400D7D319 /* ic_launcher.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ic_launcher.xml; sourceTree = "<group>"; };
-		BBBBD70A27023B5400D7D319 /* ic_launcher_round.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ic_launcher_round.xml; sourceTree = "<group>"; };
-		BBBBD70B27023B5400D7D319 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
 		BBBBD71027023B5400D7D319 /* MainActivity.kt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MainActivity.kt; sourceTree = "<group>"; };
 		BBBBD71127023B5400D7D319 /* Engine.kt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Engine.kt; sourceTree = "<group>"; };
 		BBBBD71327023B5400D7D319 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		BBBBD71427023B5400D7D319 /* JNIEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JNIEngine.cpp; sourceTree = "<group>"; };
-		BBBBD71727023B5400D7D319 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
-		BBBBD71827023B5400D7D319 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
-		BBBBD71927023B5400D7D319 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
-		BBBBD71A27023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BBBBD71B27023B5400D7D319 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
-		BBBBD71C27023B5400D7D319 /* gradle.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradle.properties; sourceTree = "<group>"; };
-		BBBBD71D27023B5400D7D319 /* gradlew.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew.bat; sourceTree = "<group>"; };
-		BBBBD71E27023B5400D7D319 /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = settings.gradle; sourceTree = "<group>"; };
-		BBBBD72027023B5400D7D319 /* jarRepositories.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = jarRepositories.xml; sourceTree = "<group>"; };
-		BBBBD72227023B5400D7D319 /* Project.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Project.xml; sourceTree = "<group>"; };
-		BBBBD72327023B5400D7D319 /* codeStyleConfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = codeStyleConfig.xml; sourceTree = "<group>"; };
-		BBBBD72427023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BBBBD72527023B5400D7D319 /* .name */ = {isa = PBXFileReference; lastKnownFileType = text; path = .name; sourceTree = "<group>"; };
-		BBBBD72627023B5400D7D319 /* misc.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
-		BBBBD72727023B5400D7D319 /* compiler.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = compiler.xml; sourceTree = "<group>"; };
 		BBBBD72927023B5400D7D319 /* GowEngineMount.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.vcxproj.filters; sourceTree = "<group>"; };
 		BBBBD72A27023B5400D7D319 /* GowEngineMount.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = GowEngineMount.sln; sourceTree = "<group>"; };
-		BBBBD72B27023B5400D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BBBBD72C27023B5400D7D319 /* GowEngineMount.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.vcxproj; sourceTree = "<group>"; };
 		BBBBD72D27023B5400D7D319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BBBBD73027023B5400D7D319 /* GlfwMain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GlfwMain.hpp; sourceTree = "<group>"; };
@@ -446,12 +407,8 @@
 		BBBBD7DC27023B6700D7D319 /* linux_joystick.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linux_joystick.c; sourceTree = "<group>"; };
 		BBBBD7DD27023B6700D7D319 /* cocoa_monitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_monitor.m; sourceTree = "<group>"; };
 		BBBBD7DE27023B6700D7D319 /* window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
-		BBBBD7E027023E0F00D7D319 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BBBBD7E327023E0F00D7D319 /* GowEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GowEngine.hpp; sourceTree = "<group>"; };
 		BBBBD7E427023E0F00D7D319 /* AppleMacros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppleMacros.hpp; sourceTree = "<group>"; };
-		BBBBD7E527023E0F00D7D319 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
-		BBBBD7E627023E0F00D7D319 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BBBBD7E727023E0F00D7D319 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BBBBD96D27023E1000D7D319 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		BBBBD9B927023E1000D7D319 /* pattern_formatter-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pattern_formatter-inl.h"; sourceTree = "<group>"; };
 		BBBBD9BA27023E1000D7D319 /* fwd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
@@ -985,7 +942,6 @@
 		BBBBD6CD27023B5400D7D319 /* apple */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD6DD27023B5400D7D319 /* .gitignore */,
 				BBBBD6D227023B5400D7D319 /* iOS */,
 				BBBBD6CE27023B5400D7D319 /* macOS */,
 			);
@@ -1021,10 +977,8 @@
 		BBBBD6E127023B5400D7D319 /* linux */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD6E527023B5400D7D319 /* .gitignore */,
 				BBBBD6E227023B5400D7D319 /* GowEngineMount.cbp */,
 				BBBBD6E627023B5400D7D319 /* main.cpp */,
-				BBBBD6E427023B5400D7D319 /* README.md */,
 				BBBBD6E327023B5400D7D319 /* run.sh */,
 			);
 			path = linux;
@@ -1034,14 +988,6 @@
 			isa = PBXGroup;
 			children = (
 				BBBBD6E827023B5400D7D319 /* app */,
-				BBBBD71527023B5400D7D319 /* gradle */,
-				BBBBD71927023B5400D7D319 /* gradlew */,
-				BBBBD71A27023B5400D7D319 /* .gitignore */,
-				BBBBD71B27023B5400D7D319 /* build.gradle */,
-				BBBBD71C27023B5400D7D319 /* gradle.properties */,
-				BBBBD71D27023B5400D7D319 /* gradlew.bat */,
-				BBBBD71E27023B5400D7D319 /* settings.gradle */,
-				BBBBD71F27023B5400D7D319 /* .idea */,
 			);
 			path = android;
 			sourceTree = "<group>";
@@ -1049,8 +995,6 @@
 		BBBBD6E827023B5400D7D319 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD6E927023B5400D7D319 /* proguard-rules.pro */,
-				BBBBD6EA27023B5400D7D319 /* .gitignore */,
 				BBBBD6EB27023B5400D7D319 /* build.gradle */,
 				BBBBD6EC27023B5400D7D319 /* src */,
 			);
@@ -1068,7 +1012,6 @@
 		BBBBD6ED27023B5400D7D319 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD70B27023B5400D7D319 /* AndroidManifest.xml */,
 				BBBBD71227023B5400D7D319 /* cpp */,
 				BBBBD70C27023B5400D7D319 /* java */,
 				BBBBD6EE27023B5400D7D319 /* res */,
@@ -1079,106 +1022,17 @@
 		BBBBD6EE27023B5400D7D319 /* res */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD6F727023B5400D7D319 /* drawable */,
-				BBBBD6F227023B5400D7D319 /* drawable-v24 */,
-				BBBBD70827023B5400D7D319 /* mipmap-anydpi-v26 */,
-				BBBBD6F427023B5400D7D319 /* mipmap-hdpi */,
-				BBBBD6EF27023B5400D7D319 /* mipmap-mdpi */,
-				BBBBD70527023B5400D7D319 /* mipmap-xhdpi */,
-				BBBBD6FC27023B5400D7D319 /* mipmap-xxhdpi */,
-				BBBBD6F927023B5400D7D319 /* mipmap-xxxhdpi */,
 				BBBBD70127023B5400D7D319 /* values */,
-				BBBBD6FF27023B5400D7D319 /* values-night */,
 			);
 			path = res;
-			sourceTree = "<group>";
-		};
-		BBBBD6EF27023B5400D7D319 /* mipmap-mdpi */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6F027023B5400D7D319 /* ic_launcher.png */,
-				BBBBD6F127023B5400D7D319 /* ic_launcher_round.png */,
-			);
-			path = "mipmap-mdpi";
-			sourceTree = "<group>";
-		};
-		BBBBD6F227023B5400D7D319 /* drawable-v24 */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6F327023B5400D7D319 /* ic_launcher_foreground.xml */,
-			);
-			path = "drawable-v24";
-			sourceTree = "<group>";
-		};
-		BBBBD6F427023B5400D7D319 /* mipmap-hdpi */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6F527023B5400D7D319 /* ic_launcher.png */,
-				BBBBD6F627023B5400D7D319 /* ic_launcher_round.png */,
-			);
-			path = "mipmap-hdpi";
-			sourceTree = "<group>";
-		};
-		BBBBD6F727023B5400D7D319 /* drawable */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6F827023B5400D7D319 /* ic_launcher_background.xml */,
-			);
-			path = drawable;
-			sourceTree = "<group>";
-		};
-		BBBBD6F927023B5400D7D319 /* mipmap-xxxhdpi */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6FA27023B5400D7D319 /* ic_launcher.png */,
-				BBBBD6FB27023B5400D7D319 /* ic_launcher_round.png */,
-			);
-			path = "mipmap-xxxhdpi";
-			sourceTree = "<group>";
-		};
-		BBBBD6FC27023B5400D7D319 /* mipmap-xxhdpi */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD6FD27023B5400D7D319 /* ic_launcher.png */,
-				BBBBD6FE27023B5400D7D319 /* ic_launcher_round.png */,
-			);
-			path = "mipmap-xxhdpi";
-			sourceTree = "<group>";
-		};
-		BBBBD6FF27023B5400D7D319 /* values-night */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD70027023B5400D7D319 /* themes.xml */,
-			);
-			path = "values-night";
 			sourceTree = "<group>";
 		};
 		BBBBD70127023B5400D7D319 /* values */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD70227023B5400D7D319 /* colors.xml */,
-				BBBBD70327023B5400D7D319 /* themes.xml */,
 				BBBBD70427023B5400D7D319 /* strings.xml */,
 			);
 			path = values;
-			sourceTree = "<group>";
-		};
-		BBBBD70527023B5400D7D319 /* mipmap-xhdpi */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD70627023B5400D7D319 /* ic_launcher.png */,
-				BBBBD70727023B5400D7D319 /* ic_launcher_round.png */,
-			);
-			path = "mipmap-xhdpi";
-			sourceTree = "<group>";
-		};
-		BBBBD70827023B5400D7D319 /* mipmap-anydpi-v26 */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD70927023B5400D7D319 /* ic_launcher.xml */,
-				BBBBD70A27023B5400D7D319 /* ic_launcher_round.xml */,
-			);
-			path = "mipmap-anydpi-v26";
 			sourceTree = "<group>";
 		};
 		BBBBD70C27023B5400D7D319 /* java */ = {
@@ -1223,49 +1077,9 @@
 			path = cpp;
 			sourceTree = "<group>";
 		};
-		BBBBD71527023B5400D7D319 /* gradle */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD71627023B5400D7D319 /* wrapper */,
-			);
-			path = gradle;
-			sourceTree = "<group>";
-		};
-		BBBBD71627023B5400D7D319 /* wrapper */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD71727023B5400D7D319 /* gradle-wrapper.jar */,
-				BBBBD71827023B5400D7D319 /* gradle-wrapper.properties */,
-			);
-			path = wrapper;
-			sourceTree = "<group>";
-		};
-		BBBBD71F27023B5400D7D319 /* .idea */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD72027023B5400D7D319 /* jarRepositories.xml */,
-				BBBBD72127023B5400D7D319 /* codeStyles */,
-				BBBBD72427023B5400D7D319 /* .gitignore */,
-				BBBBD72527023B5400D7D319 /* .name */,
-				BBBBD72627023B5400D7D319 /* misc.xml */,
-				BBBBD72727023B5400D7D319 /* compiler.xml */,
-			);
-			path = .idea;
-			sourceTree = "<group>";
-		};
-		BBBBD72127023B5400D7D319 /* codeStyles */ = {
-			isa = PBXGroup;
-			children = (
-				BBBBD72227023B5400D7D319 /* Project.xml */,
-				BBBBD72327023B5400D7D319 /* codeStyleConfig.xml */,
-			);
-			path = codeStyles;
-			sourceTree = "<group>";
-		};
 		BBBBD72827023B5400D7D319 /* windows */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD72B27023B5400D7D319 /* .gitignore */,
 				BBBBD72A27023B5400D7D319 /* GowEngineMount.sln */,
 				BBBBD72C27023B5400D7D319 /* GowEngineMount.vcxproj */,
 				BBBBD72927023B5400D7D319 /* GowEngineMount.vcxproj.filters */,
@@ -1442,12 +1256,8 @@
 		BBBBD7DF27023E0F00D7D319 /* GowEngine */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD7E727023E0F00D7D319 /* .gitignore */,
-				BBBBD7E527023E0F00D7D319 /* .gitmodules */,
 				BBBBD7E827023E0F00D7D319 /* deps */,
 				BBBBD7E127023E0F00D7D319 /* include */,
-				BBBBD7E027023E0F00D7D319 /* LICENSE */,
-				BBBBD7E627023E0F00D7D319 /* README.md */,
 				BBBBDE6B27023E1400D7D319 /* src */,
 			);
 			name = GowEngine;
