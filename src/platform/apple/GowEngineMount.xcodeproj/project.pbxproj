@@ -294,6 +294,8 @@
 		BBBBE18B2702588500D7D319 /* NSEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD6D827023B5400D7D319 /* NSEngine.mm */; };
 		BBBBE18C2702588500D7D319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD6DC27023B5400D7D319 /* SceneDelegate.swift */; };
 		BBBBE18D2702588500D7D319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD6D327023B5400D7D319 /* ViewController.swift */; };
+		BBBBE18F2702899D00D7D319 /* FileUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE18E2702899D00D7D319 /* FileUtil.cpp */; };
+		BBBBE1902702899D00D7D319 /* FileUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE18E2702899D00D7D319 /* FileUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -883,6 +885,7 @@
 		BBBBE07F270250D700D7D319 /* MainEngineState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainEngineState.hpp; sourceTree = "<group>"; };
 		BBBBE0842702517C00D7D319 /* MainRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainRenderer.hpp; sourceTree = "<group>"; };
 		BBBBE0852702517C00D7D319 /* MainRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainRenderer.cpp; sourceTree = "<group>"; };
+		BBBBE18E2702899D00D7D319 /* FileUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtil.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2105,6 +2108,7 @@
 				BBBBDEEC27023E1400D7D319 /* AssetsManager.cpp */,
 				BBBBDEEF27023E1400D7D319 /* AssetsManager.hpp */,
 				BBBBDEEE27023E1400D7D319 /* FileData.hpp */,
+				BBBBE18E2702899D00D7D319 /* FileUtil.cpp */,
 				BBBBDEE827023E1400D7D319 /* FileUtil.hpp */,
 				BBBBDEF627023E1400D7D319 /* LinuxAssetHandler.cpp */,
 				BBBBDEE927023E1400D7D319 /* LinuxAssetHandler.hpp */,
@@ -2339,6 +2343,7 @@
 				BBBBE0892702529A00D7D319 /* window.c in Sources */,
 				BBBBDF612702465700D7D319 /* AndroidAssetHandler.cpp in Sources */,
 				BBBBE077270248E100D7D319 /* input.c in Sources */,
+				BBBBE18F2702899D00D7D319 /* FileUtil.cpp in Sources */,
 				BBBBE0382702484700D7D319 /* b2_joint.cpp in Sources */,
 				BBBBE03A2702484700D7D319 /* b2_chain_circle_contact.cpp in Sources */,
 				BBBBE03E2702484700D7D319 /* b2_weld_joint.cpp in Sources */,
@@ -2509,6 +2514,7 @@
 				BBBBE0E22702584600D7D319 /* Config.cpp in Sources */,
 				BBBBE0E52702584600D7D319 /* FPSUtil.cpp in Sources */,
 				BBBBE0EA2702584600D7D319 /* RTTI.cpp in Sources */,
+				BBBBE1902702899D00D7D319 /* FileUtil.cpp in Sources */,
 				BBBBE0EF2702584600D7D319 /* ThreadManager.cpp in Sources */,
 				BBBBE0F22702584600D7D319 /* DefaultEngineState.cpp in Sources */,
 				BBBBE0F42702584600D7D319 /* Engine.cpp in Sources */,
