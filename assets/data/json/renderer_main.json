@@ -1,0 +1,35 @@
+{
+  "fontBatchers": {
+    "main": {
+      "matrix": "main",
+      "texture": "texture_font",
+      "maxBatchSize": 256,
+      "glyphsPerRow": 16,
+      "glyphWidth": 16,
+      "glyphHeight": 16
+    }
+  },
+  "framebuffers": {
+    "main": {
+      "width": 1791,
+      "height": 1116,
+      "filterMin": "SMOOTH",
+      "filterMag": "SMOOTH"
+    }
+  },
+  "matrices": {
+    "main": {
+      "width": 64,
+      "height": 36
+    }
+  },
+  "textViews": {
+    "main": {
+      "text": "Welcome to GowEngine",
+      "alignment": 1,
+      "xWeight": 0.5,
+      "yWeight": 0.5,
+      "glyphWidthWeight": 0.025
+    }
+  }
+}

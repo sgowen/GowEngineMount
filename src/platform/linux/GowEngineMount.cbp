@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GowEngineMount" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GowEngineMount" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG=1" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GowEngineMount" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fno-rtti" />
+			<Add option="-fno-exceptions" />
+			<Add option="-fno-unwind-tables" />
+			<Add option="-Wno-multichar" />
+			<Add option="-D_GLFW_X11" />
+			<Add option="-DSPDLOG_COMPILED_LIB" />
+			<Add option="-DSPDLOG_NO_EXCEPTIONS" />
+			<Add directory="../../../../GowEngine/deps/box2d/include" />
+			<Add directory="../../../../GowEngine/deps/box2d/src" />
+			<Add directory="../../../../GowEngine/deps/rapidjson/include" />
+			<Add directory="../../../../GowEngine/deps/spdlog/include" />
+			<Add directory="../../../../GowEngine/deps/stb" />
+			<Add directory="../../../../GowEngine/include" />
+			<Add directory="../../../../GowEngine/src" />
+            <Add directory="../../../deps/glfw/include" />
+            <Add directory="../../deps" />
+            <Add directory="../../core" />
+		</Compiler>
+		<Linker>
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-lGLEW" />
+			<Add option="-lGL" />
+			<Add option="-lopenal" />
+			<Add option="-lalut" />
+		</Linker>
+		<ExtraCommands>
+			<Add before="if [ -d $(PROJECT_DIR)/data ]; then rm -Rf $(PROJECT_DIR)/data; fi" />
+			<Add after="cp -r $(PROJECT_DIR)../../../assets/data $(PROJECT_DIR)" />
+			<Add after="cp $(TARGET_OUTPUT_FILE) $(PROJECT_DIR)" />
+			<Mode after="always" />
+		</ExtraCommands>
+		<UnitsGlob directory="../../../../GowEngine/deps/box2d/src" recursive="1" wildcard="*.cpp" />
+		<UnitsGlob directory="../../../../GowEngine/deps/box2d/src" recursive="1" wildcard="*.h" />
+		<UnitsGlob directory="../../../../GowEngine/deps/spdlog/src" recursive="0" wildcard="*.cpp" />
+		<UnitsGlob directory="../../../../GowEngine/src" recursive="1" wildcard="*.cpp" />
+		<UnitsGlob directory="../../../../GowEngine/src" recursive="1" wildcard="*.hpp" />
+        <Unit filename="../../../deps/glfw/src/context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/egl_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/glx_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/init.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/input.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/linux_joystick.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/monitor.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/osmesa_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/posix_thread.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/posix_time.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/vulkan.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/window.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/x11_init.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/x11_monitor.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/x11_window.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../deps/glfw/src/xkb_unicode.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <UnitsGlob directory="../../deps" recursive="1" wildcard="*.cpp" />
+        <UnitsGlob directory="../../deps" recursive="1" wildcard="*.hpp" />
+        <UnitsGlob directory="../../core" recursive="0" wildcard="*.cpp" />
+		<UnitsGlob directory="../../core" recursive="0" wildcard="*.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
