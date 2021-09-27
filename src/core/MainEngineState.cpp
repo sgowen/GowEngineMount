@@ -24,7 +24,6 @@ void MainEngineState::onUpdate(Engine* e)
     // TODO
 }
 
-// fixme
 MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainRenderer::render)
 {
     // Empty
