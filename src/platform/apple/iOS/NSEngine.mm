@@ -8,7 +8,6 @@
 
 #import "NSEngine.hpp"
 
-#include <GowEngine/GowEngine.hpp>
 #include <GowEngine/AppleMacros.hpp>
 
 #include "MainEngineController.hpp"

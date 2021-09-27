@@ -1,4 +1,10 @@
-#include <GowEngine/GowEngine.hpp>
+//
+//  JNIEngine.cpp
+//  GowEngineMount
+//
+//  Created by Stephen Gowen on 9/27/21.
+//  Copyright © 2021 Stephen Gowen. All rights reserved.
+//
 
 #include "MainEngineController.hpp"
 

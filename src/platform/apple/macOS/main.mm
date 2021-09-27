@@ -6,11 +6,10 @@
 //  Copyright © 2021 Stephen Gowen. All rights reserved.
 //
 
-#include <GowEngine/GowEngine.hpp>
 #include <GowEngine/AppleMacros.hpp>
 
-#include "glfw/GlfwMain.hpp"
 #include "MainEngineController.hpp"
+#include "glfw/GlfwMain.hpp"
 
 int main(void)
 {
