@@ -35,6 +35,8 @@
 
 - (void)createDeviceDependentResources
 {
+    // TODO, implement ClipboardHandler
+    // see https://developer.apple.com/documentation/uikit/uipasteboard
     _engine->createDeviceDependentResources();
 }
 

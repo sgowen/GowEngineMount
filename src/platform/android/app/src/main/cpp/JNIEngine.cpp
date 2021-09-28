@@ -8,13 +8,15 @@
 
 #include "MainEngineController.hpp"
 
-Engine* _engine = NULL;
-MainEngineController* _controller = NULL;
+Engine* _engine = nullptr;
+MainEngineController* _controller = nullptr;
 
 extern "C"
 JNIEXPORT void JNICALL
 Java_com_gowenginemount_android_Engine_createDeviceDependentResources(JNIEnv *env, jobject thiz)
 {
+    // TODO, implement ClipboardHandler
+    // see https://developer.android.com/guide/topics/text/copy-paste
     _engine->createDeviceDependentResources();
 }
 
@@ -85,10 +87,10 @@ extern "C"
 JNIEXPORT void JNICALL
 Java_com_gowenginemount_android_Engine_init(JNIEnv *env, jobject thiz, jobject asset_manager)
 {
-    assert(_controller == NULL);
+    assert(_controller == nullptr);
     _controller = new MainEngineController(env, asset_manager);
 
-    assert(_engine == NULL);
+    assert(_engine == nullptr);
     _engine = new Engine(*_controller);
 }
 
@@ -97,8 +99,8 @@ JNIEXPORT void JNICALL
 Java_com_gowenginemount_android_Engine_deinit(JNIEnv *env, jobject thiz)
 {
     delete _engine;
-    _engine = NULL;
+    _engine = nullptr;
 
     delete _controller;
-    _controller = NULL;
+    _controller = nullptr;
 }

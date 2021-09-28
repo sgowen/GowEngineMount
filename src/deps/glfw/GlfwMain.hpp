@@ -12,6 +12,7 @@
 #include <GowEngine/GowEngine.hpp>
 
 class EngineController;
+struct GLFWwindow;
 
 class GlfwMain
 {
@@ -19,6 +20,8 @@ public:
     static void exec(EngineController& engineController, const char* windowTitle);
 
 private:
+    static void runEngine(EngineController& engineController, GLFWwindow* window);
+    
     GlfwMain();
     ~GlfwMain();
     GlfwMain(const GlfwMain&);

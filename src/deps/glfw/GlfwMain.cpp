@@ -124,6 +124,25 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     _engine->onKeyboardInput(key, action == GLFW_RELEASE);
 }
 
+class GlfwClipboardHandler : public ClipboardHandler
+{
+public:
+    virtual const char* getClipboardString()
+    {
+        return glfwGetClipboardString(_window);
+    }
+    
+    GlfwClipboardHandler(GLFWwindow* window) :
+    _window(window)
+    {
+        // Empty
+    }
+    virtual ~GlfwClipboardHandler() {}
+    
+private:
+    GLFWwindow* _window;
+};
+
 void GlfwMain::exec(EngineController& engineController, const char* windowTitle)
 {
     memset(joysticks, 0, sizeof(joysticks));
@@ -162,12 +181,12 @@ void GlfwMain::exec(EngineController& engineController, const char* windowTitle)
 #endif
 
     window = glfwCreateWindow(width, height, windowTitle, monitor, nullptr);
-    if (!window)
+    if (window == nullptr)
     {
         glfwTerminate();
         exit(EXIT_FAILURE);
     }
-
+    
     for (int jid = GLFW_JOYSTICK_1; jid <= GLFW_JOYSTICK_LAST; ++jid)
     {
         if (glfwJoystickPresent(jid))
@@ -193,9 +212,23 @@ void GlfwMain::exec(EngineController& engineController, const char* windowTitle)
     
     glfwSwapInterval(1);
     
-    _engine = new Engine(engineController);
-    _engine->createDeviceDependentResources(window);
+    runEngine(engineController, window);
+
+    glfwDestroyWindow(window);
+
+    glfwTerminate();
+    exit(EXIT_SUCCESS);
+}
+
+void GlfwMain::runEngine(EngineController& engineController, GLFWwindow* window)
+{
+    GlfwClipboardHandler clipboardHandler(window);
+    Engine engine(engineController);
+    engine.createDeviceDependentResources(&clipboardHandler);
+    _engine = &engine;
     
+    int width = 0;
+    int height = 0;
     glfwGetFramebufferSize(window, &width, &height);
     framebuffer_size_callback(window, width, height);
     
@@ -252,17 +285,17 @@ void GlfwMain::exec(EngineController& engineController, const char* windowTitle)
                 }
             }
 
-            _engine->onGamepadInputStickLeft(i, stickLeftX, stickLeftY);
-            _engine->onGamepadInputStickRight(i, stickRightX, stickRightY);
-            _engine->onGamepadInputTrigger(i, triggerLeft, triggerRight);
+            engine.onGamepadInputStickLeft(i, stickLeftX, stickLeftY);
+            engine.onGamepadInputStickRight(i, stickRightX, stickRightY);
+            engine.onGamepadInputTrigger(i, triggerLeft, triggerRight);
 
             for (j = 0; j < button_count; ++j)
             {
-                _engine->onGamepadInputButton(i, j, buttons[j]);
+                engine.onGamepadInputButton(i, j, buttons[j]);
             }
         }
 
-        EngineRequestedHostAction requestedAction = _engine->update(deltaTime);
+        EngineRequestedHostAction requestedAction = engine.update(deltaTime);
         switch (requestedAction)
         {
             case ERHA_EXIT:
@@ -273,20 +306,12 @@ void GlfwMain::exec(EngineController& engineController, const char* windowTitle)
                 break;
         }
 
-        _engine->render();
+        engine.render();
 
         glfwSwapBuffers(window);
     }
 
-    _engine->destroyDeviceDependentResources();
-    
-    delete _engine;
-    _engine = nullptr;
-
-    glfwDestroyWindow(window);
-
-    glfwTerminate();
-    exit(EXIT_SUCCESS);
+    engine.destroyDeviceDependentResources();
 }
 
 #endif /* IS_DESKTOP */

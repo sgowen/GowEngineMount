@@ -35,7 +35,6 @@
 		BBBBDFA12702467A00D7D319 /* EntityPhysicsController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7927023E1400D7D319 /* EntityPhysicsController.cpp */; };
 		BBBBDFA32702467A00D7D319 /* EntityRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7E27023E1400D7D319 /* EntityRegistry.cpp */; };
 		BBBBDFA52702467A00D7D319 /* EntityRenderController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE8627023E1400D7D319 /* EntityRenderController.cpp */; };
-		BBBBDFA72702467D00D7D319 /* ClipboardUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7527023E1400D7D319 /* ClipboardUtil.cpp */; };
 		BBBBDFAB2702467D00D7D319 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7227023E1400D7D319 /* InputManager.cpp */; };
 		BBBBDFAD2702467D00D7D319 /* InputState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE6E27023E1400D7D319 /* InputState.cpp */; };
 		BBBBDFB32702468800D7D319 /* OverlapTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEC227023E1400D7D319 /* OverlapTester.cpp */; };
@@ -238,7 +237,6 @@
 		BBBBE1052702584700D7D319 /* EntityPhysicsController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7927023E1400D7D319 /* EntityPhysicsController.cpp */; };
 		BBBBE1072702584700D7D319 /* EntityRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7E27023E1400D7D319 /* EntityRegistry.cpp */; };
 		BBBBE1092702584700D7D319 /* EntityRenderController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE8627023E1400D7D319 /* EntityRenderController.cpp */; };
-		BBBBE10B2702584700D7D319 /* ClipboardUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7527023E1400D7D319 /* ClipboardUtil.cpp */; };
 		BBBBE10F2702584700D7D319 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7227023E1400D7D319 /* InputManager.cpp */; };
 		BBBBE1112702584700D7D319 /* InputState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE6E27023E1400D7D319 /* InputState.cpp */; };
 		BBBBE1172702584700D7D319 /* OverlapTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEC227023E1400D7D319 /* OverlapTester.cpp */; };
@@ -641,13 +639,12 @@
 		BBBBDE6927023E1400D7D319 /* b2_time_of_impact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = b2_time_of_impact.cpp; sourceTree = "<group>"; };
 		BBBBDE6A27023E1400D7D319 /* b2_distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = b2_distance.cpp; sourceTree = "<group>"; };
 		BBBBDE6E27023E1400D7D319 /* InputState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputState.cpp; sourceTree = "<group>"; };
-		BBBBDE6F27023E1400D7D319 /* ClipboardUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClipboardUtil.hpp; sourceTree = "<group>"; };
+		BBBBDE6F27023E1400D7D319 /* ClipboardHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClipboardHandler.hpp; sourceTree = "<group>"; };
 		BBBBDE7027023E1400D7D319 /* InputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputManager.hpp; sourceTree = "<group>"; };
 		BBBBDE7127023E1400D7D319 /* CursorEvent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CursorEvent.hpp; sourceTree = "<group>"; };
 		BBBBDE7227023E1400D7D319 /* InputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
 		BBBBDE7327023E1400D7D319 /* KeyboardEvent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyboardEvent.hpp; sourceTree = "<group>"; };
 		BBBBDE7427023E1400D7D319 /* InputState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputState.hpp; sourceTree = "<group>"; };
-		BBBBDE7527023E1400D7D319 /* ClipboardUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClipboardUtil.cpp; sourceTree = "<group>"; };
 		BBBBDE7627023E1400D7D319 /* GamepadEvent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GamepadEvent.hpp; sourceTree = "<group>"; };
 		BBBBDE7827023E1400D7D319 /* EntityNetworkController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EntityNetworkController.cpp; sourceTree = "<group>"; };
 		BBBBDE7927023E1400D7D319 /* EntityPhysicsController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EntityPhysicsController.cpp; sourceTree = "<group>"; };
@@ -1742,8 +1739,7 @@
 		BBBBDE6D27023E1400D7D319 /* input */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBDE7527023E1400D7D319 /* ClipboardUtil.cpp */,
-				BBBBDE6F27023E1400D7D319 /* ClipboardUtil.hpp */,
+				BBBBDE6F27023E1400D7D319 /* ClipboardHandler.hpp */,
 				BBBBDE7127023E1400D7D319 /* CursorEvent.hpp */,
 				BBBBDE7627023E1400D7D319 /* GamepadEvent.hpp */,
 				BBBBDE7227023E1400D7D319 /* InputManager.cpp */,
@@ -2281,7 +2277,6 @@
 				BBBBDFB32702468800D7D319 /* OverlapTester.cpp in Sources */,
 				BBBBDF862702467400D7D319 /* RTTI.cpp in Sources */,
 				BBBBE080270250D700D7D319 /* MainEngineState.cpp in Sources */,
-				BBBBDFA72702467D00D7D319 /* ClipboardUtil.cpp in Sources */,
 				BBBBDFAB2702467D00D7D319 /* InputManager.cpp in Sources */,
 				BBBBDFAD2702467D00D7D319 /* InputState.cpp in Sources */,
 				BBBBDF8E2702467700D7D319 /* DefaultEngineState.cpp in Sources */,
@@ -2342,7 +2337,6 @@
 				BBBBE1052702584700D7D319 /* EntityPhysicsController.cpp in Sources */,
 				BBBBE1072702584700D7D319 /* EntityRegistry.cpp in Sources */,
 				BBBBE1092702584700D7D319 /* EntityRenderController.cpp in Sources */,
-				BBBBE10B2702584700D7D319 /* ClipboardUtil.cpp in Sources */,
 				BBBBE10F2702584700D7D319 /* InputManager.cpp in Sources */,
 				BBBBE1112702584700D7D319 /* InputState.cpp in Sources */,
 				BBBBE1172702584700D7D319 /* OverlapTester.cpp in Sources */,
