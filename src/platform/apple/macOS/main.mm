@@ -9,7 +9,6 @@
 #include <GowEngine/AppleMacros.hpp>
 
 #include "MainEngineController.hpp"
-#include "glfw/GlfwMain.hpp"
 
 int main(void)
 {

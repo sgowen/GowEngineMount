@@ -40,13 +40,12 @@
 			<Add option="-DSPDLOG_NO_EXCEPTIONS" />
 			<Add directory="../../../../GowEngine/deps/box2d/include" />
 			<Add directory="../../../../GowEngine/deps/box2d/src" />
+            <Add directory="../../../../GowEngine/deps/glfw/include" />
 			<Add directory="../../../../GowEngine/deps/rapidjson/include" />
 			<Add directory="../../../../GowEngine/deps/spdlog/include" />
 			<Add directory="../../../../GowEngine/deps/stb" />
 			<Add directory="../../../../GowEngine/include" />
 			<Add directory="../../../../GowEngine/src" />
-            <Add directory="../../../deps/glfw/include" />
-            <Add directory="../../deps" />
             <Add directory="../../core" />
 		</Compiler>
 		<Linker>
@@ -65,59 +64,57 @@
 		</ExtraCommands>
 		<UnitsGlob directory="../../../../GowEngine/deps/box2d/src" recursive="1" wildcard="*.cpp" />
 		<UnitsGlob directory="../../../../GowEngine/deps/box2d/src" recursive="1" wildcard="*.h" />
+        <Unit filename="../../../../GowEngine/deps/glfw/src/context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/egl_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/glx_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/init.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/input.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/linux_joystick.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/monitor.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/osmesa_context.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/posix_thread.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/posix_time.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/vulkan.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/window.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/x11_init.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/x11_monitor.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/x11_window.c">
+            <Option compilerVar="CC" />
+        </Unit>
+        <Unit filename="../../../../GowEngine/deps/glfw/src/xkb_unicode.c">
+            <Option compilerVar="CC" />
+        </Unit>
 		<UnitsGlob directory="../../../../GowEngine/deps/spdlog/src" recursive="0" wildcard="*.cpp" />
 		<UnitsGlob directory="../../../../GowEngine/src" recursive="1" wildcard="*.cpp" />
 		<UnitsGlob directory="../../../../GowEngine/src" recursive="1" wildcard="*.hpp" />
-        <Unit filename="../../../deps/glfw/src/context.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/egl_context.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/glx_context.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/init.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/input.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/linux_joystick.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/monitor.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/osmesa_context.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/posix_thread.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/posix_time.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/vulkan.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/window.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/x11_init.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/x11_monitor.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/x11_window.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <Unit filename="../../../deps/glfw/src/xkb_unicode.c">
-            <Option compilerVar="CC" />
-        </Unit>
-        <UnitsGlob directory="../../deps" recursive="1" wildcard="*.cpp" />
-        <UnitsGlob directory="../../deps" recursive="1" wildcard="*.hpp" />
         <UnitsGlob directory="../../core" recursive="0" wildcard="*.cpp" />
 		<UnitsGlob directory="../../core" recursive="0" wildcard="*.hpp" />
 		<Unit filename="main.cpp" />

@@ -7,7 +7,6 @@
 //
 
 #include "MainEngineController.hpp"
-#include "glfw/GlfwMain.hpp"
 
 int main(void)
 {

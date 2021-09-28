@@ -2,31 +2,38 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\..\..\..\GowEngine\deps\box2d\src\*\*.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\AudioEngine.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\DynamicSoundEffectInstance.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\SoundCommon.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\SoundEffect.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\SoundEffectInstance.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\SoundStreamInstance.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\WaveBank.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\WaveBankReader.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\DirectXTK\Audio\WAVFileReader.cpp" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\context.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\egl_context.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\init.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\input.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\monitor.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\osmesa_context.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\vulkan.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\wgl_context.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_init.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_joystick.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_monitor.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_thread.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_time.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\win32_window.c" />
+    <ClCompile Include="..\..\..\..\GowEngine\deps\glfw\src\window.c" />
     <ClCompile Include="..\..\..\..\GowEngine\deps\spdlog\src\*.cpp" />
     <ClCompile Include="..\..\..\..\GowEngine\src\*\*\*.cpp" />
-    <ClCompile Include="..\..\..\deps\glfw\src\context.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\egl_context.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\init.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\input.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\monitor.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\osmesa_context.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\vulkan.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\wgl_context.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_init.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_joystick.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_monitor.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_thread.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_time.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\win32_window.c" />
-    <ClCompile Include="..\..\..\deps\glfw\src\window.c" />
-    <ClCompile Include="..\..\deps\*\*.cpp" />
     <ClCompile Include="..\..\core\*.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\GowEngine\src\*\*\*.hpp" />
     <ClInclude Include="..\..\..\..\GowEngine\include\GowEngine\*.hpp" />
-    <ClCompile Include="..\..\deps\*\*.hpp" />
     <ClInclude Include="..\..\core\*.hpp" />
   </ItemGroup>
 </Project>

@@ -47,8 +47,26 @@ add_library( # Sets the name of the library.
 
              JNIEngine.cpp )
 
+### INCLUDE OBOE LIBRARY ###
+
+# Set the path to the Oboe library directory
+set (OBOE_DIR ${engine_source_dir}/../deps/oboe)
+
+# Add the Oboe library as a subproject. Since Oboe is an out-of-tree source library we must also
+# specify a binary directory
+add_subdirectory(${OBOE_DIR} ./oboe-bin)
+
+# Specify the path to the Oboe header files and the source.
+include_directories(
+        ${OBOE_DIR}/include
+        ${OBOE_DIR}/src/flowgraph
+        ${OBOE_DIR}/src
+)
+
+### END OBOE INCLUDE SECTION ###
+
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
 # build script, prebuilt third-party libraries, or system libraries.
 
-target_link_libraries(native-lib android log GLESv3 EGL)
+target_link_libraries(native-lib android log GLESv3 EGL oboe)
