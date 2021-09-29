@@ -10,20 +10,15 @@
 
 void MainEngineState::onEnter(Engine* e)
 {
-    // TODO
+    // Empty
 }
 
 void MainEngineState::onExit(Engine* e)
 {
-    // TODO
+    // Empty
 }
 
 void MainEngineState::onUpdate(Engine* e)
-{
-    // TODO
-}
-
-MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainEngineState::render)
 {
     // Empty
 }
@@ -34,4 +29,9 @@ void MainEngineState::render(Renderer& r)
     r.clearFramebuffer(Color::BLACK);
     r.renderTextViews();
     r.renderToScreen();
+}
+
+MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainEngineState::render)
+{
+    // Empty
 }
