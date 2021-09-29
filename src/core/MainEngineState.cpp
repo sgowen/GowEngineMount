@@ -8,7 +8,7 @@
 
 #include "MainEngineState.hpp"
 
-void MainEngineState::render(Renderer& r)
+void MainEngineState::onRender(Renderer& r)
 {
     r.bindFramebuffer();
     r.clearFramebuffer(Color::BLACK);
@@ -16,7 +16,7 @@ void MainEngineState::render(Renderer& r)
     r.renderToScreen();
 }
 
-MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainEngineState::render)
+MainEngineState::MainEngineState() : EngineState("data/json/config_MainEngineState.json")
 {
     // Empty
 }
@@ -24,7 +24,7 @@ MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "
 #if IS_DESKTOP
 int main(void)
 {
-    EngineConfig config("data/json/config.json");
+    EngineConfig config("data/json/config_engine.json");
     GlfwMain::exec(config, MainEngineState::getInstance());
 
     return 0;

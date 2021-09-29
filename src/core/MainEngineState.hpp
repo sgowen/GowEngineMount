@@ -20,10 +20,9 @@ public:
     virtual void onEnter(Engine* e) {}
     virtual void onExit(Engine* e) {}
     virtual void onUpdate(Engine* e) {}
+    virtual void onRender(Renderer& r);
     
-private:
-    static void render(Renderer& r);
-    
+private:    
     MainEngineState();
     virtual ~MainEngineState() {}
     MainEngineState(const MainEngineState&);

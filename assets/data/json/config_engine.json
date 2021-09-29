@@ -1,0 +1,5 @@
+{
+    "windowTitle": "GowEngineMount",
+    "framesPerSecond": "60",
+    "assetsFilePath": "data/json/assets_engine.json"
+}
