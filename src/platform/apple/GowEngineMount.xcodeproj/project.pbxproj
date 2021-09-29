@@ -806,6 +806,7 @@
 		BBBB0EFA2703C4A500D7D319 /* tinycthread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinycthread.h; sourceTree = "<group>"; };
 		BBBB0EFB2703C4A500D7D319 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
 		BBBB0EFD2703C4A500D7D319 /* stdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
+		BBBB0EFE2703E52B00D7D319 /* OpenGLWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLWrapper.hpp; sourceTree = "<group>"; };
 		BBBBD6CF27023B5400D7D319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBBD6D027023B5400D7D319 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		BBBBD6D127023B5400D7D319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2911,6 +2912,7 @@
 				BBBBDF1027023E1400D7D319 /* Matrix.hpp */,
 				BBBBDF2827023E1400D7D319 /* OpenGLUtil.cpp */,
 				BBBBDF0627023E1400D7D319 /* OpenGLUtil.hpp */,
+				BBBB0EFE2703E52B00D7D319 /* OpenGLWrapper.hpp */,
 				BBBBDF0C27023E1400D7D319 /* RektangleBatcher.cpp */,
 				BBBBDF1927023E1400D7D319 /* RektangleBatcher.hpp */,
 				BBBBDF2927023E1400D7D319 /* Renderer.cpp */,
