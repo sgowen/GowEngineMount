@@ -7,7 +7,6 @@
 //
 
 #include "MainEngineState.hpp"
-#include "MainRenderer.hpp"
 
 void MainEngineState::onEnter(Engine* e)
 {
@@ -24,7 +23,15 @@ void MainEngineState::onUpdate(Engine* e)
     // TODO
 }
 
-MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainRenderer::render)
+MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "data/json/renderer_main.json", MainEngineState::render)
 {
     // Empty
+}
+
+void MainEngineState::render(Renderer& r)
+{
+    r.bindFramebuffer();
+    r.clearFramebuffer(Color::BLACK);
+    r.renderTextViews();
+    r.renderToScreen();
 }

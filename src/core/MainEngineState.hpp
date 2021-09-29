@@ -26,6 +26,8 @@ public:
     virtual void onUpdate(Engine* e);
     
 private:
+    static void render(Renderer& r);
+    
     MainEngineState();
     virtual ~MainEngineState() {}
     MainEngineState(const MainEngineState&);

@@ -250,8 +250,6 @@
 		BBBBE081270250D700D7D319 /* MainEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07D270250D700D7D319 /* MainEngineState.cpp */; };
 		BBBBE082270250D700D7D319 /* MainEngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07E270250D700D7D319 /* MainEngineController.cpp */; };
 		BBBBE083270250D700D7D319 /* MainEngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07E270250D700D7D319 /* MainEngineController.cpp */; };
-		BBBBE0862702517C00D7D319 /* MainRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE0852702517C00D7D319 /* MainRenderer.cpp */; };
-		BBBBE0872702517C00D7D319 /* MainRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE0852702517C00D7D319 /* MainRenderer.cpp */; };
 		BBBBE08A2702580900D7D319 /* cfg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4327023E1100D7D319 /* cfg.cpp */; };
 		BBBBE08B2702580900D7D319 /* stdout_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4427023E1100D7D319 /* stdout_sinks.cpp */; };
 		BBBBE08C2702580900D7D319 /* fmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4527023E1100D7D319 /* fmt.cpp */; };
@@ -1264,8 +1262,6 @@
 		BBBBE07D270250D700D7D319 /* MainEngineState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineState.cpp; sourceTree = "<group>"; };
 		BBBBE07E270250D700D7D319 /* MainEngineController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineController.cpp; sourceTree = "<group>"; };
 		BBBBE07F270250D700D7D319 /* MainEngineState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainEngineState.hpp; sourceTree = "<group>"; };
-		BBBBE0842702517C00D7D319 /* MainRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainRenderer.hpp; sourceTree = "<group>"; };
-		BBBBE0852702517C00D7D319 /* MainRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainRenderer.cpp; sourceTree = "<group>"; };
 		BBBBE18E2702899D00D7D319 /* FileUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtil.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2026,8 +2022,6 @@
 				BBBBE07C270250D700D7D319 /* MainEngineController.hpp */,
 				BBBBE07D270250D700D7D319 /* MainEngineState.cpp */,
 				BBBBE07F270250D700D7D319 /* MainEngineState.hpp */,
-				BBBBE0852702517C00D7D319 /* MainRenderer.cpp */,
-				BBBBE0842702517C00D7D319 /* MainRenderer.hpp */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -3241,7 +3235,6 @@
 				BBBBE0092702469500D7D319 /* SpriteBatcher.cpp in Sources */,
 				BBBBE00C2702469500D7D319 /* TextureManager.cpp in Sources */,
 				BBBB0E7F2703A95D00D7D319 /* SampleSource.cpp in Sources */,
-				BBBBE0862702517C00D7D319 /* MainRenderer.cpp in Sources */,
 				BBBBE0102702469600D7D319 /* TriangleBatcher.cpp in Sources */,
 				BBBBDF802702467400D7D319 /* FPSUtil.cpp in Sources */,
 				BBBBDFB82702468C00D7D319 /* AckRange.cpp in Sources */,
@@ -3478,7 +3471,6 @@
 				BBBBE0C52702582100D7D319 /* b2_time_of_impact.cpp in Sources */,
 				BBBBE0C62702582100D7D319 /* b2_distance.cpp in Sources */,
 				BBBBE0902702580900D7D319 /* spdlog.cpp in Sources */,
-				BBBBE0872702517C00D7D319 /* MainRenderer.cpp in Sources */,
 				BBBBE081270250D700D7D319 /* MainEngineState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
