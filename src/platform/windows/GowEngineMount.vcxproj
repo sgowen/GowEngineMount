@@ -199,7 +199,6 @@
     <ClCompile Include="..\..\..\..\GowEngine\deps\spdlog\src\*.cpp" />
     <ClCompile Include="..\..\..\..\GowEngine\src\*\*\*.cpp" />
     <ClCompile Include="..\..\core\*.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\GowEngine\include\GowEngine\*.hpp" />

@@ -8,29 +8,26 @@
 
 #import "NSEngine.hpp"
 
-#include <GowEngine/AppleMacros.hpp>
-
-#include "MainEngineController.hpp"
+#include "MainEngineState.hpp"
 
 @implementation NSEngine
 {
 @private
-    MainEngineController* _controller;
+    EngineConfig* _config;
     Engine* _engine;
 }
 
 - (NSEngine*)init
 {
-    APPLE_INIT_BUNDLE_ROOT_FILE_PATH;
-    _controller = new MainEngineController(APPLE_BUNDLE_ROOT_FILE_PATH);
-    _engine = new Engine(*_controller);
+    _config = new EngineConfig("data/json/config.json");
+    _engine = new Engine(*_config, MainEngineState::getInstance());
     return self;
 }
 
 - (void)dealloc
 {
     delete _engine;
-    delete _controller;
+    delete _config;
 }
 
 - (void)createDeviceDependentResources

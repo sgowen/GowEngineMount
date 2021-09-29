@@ -118,6 +118,10 @@
 		BBBB0EE12703B24800D7D319 /* NSMutableDictionary+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB06462703A85100D7D319 /* NSMutableDictionary+WeakReferences.m */; };
 		BBBB0EE32703B24800D7D319 /* OALAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB06452703A85100D7D319 /* OALAudioFile.m */; };
 		BBBB0EE62703B24900D7D319 /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB06502703A85100D7D319 /* OALTools.m */; };
+		BBBB0F032704C69B00D7D319 /* AppleBundleUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0F012704C69B00D7D319 /* AppleBundleUtil.mm */; };
+		BBBB0F042704C69B00D7D319 /* AppleBundleUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0F012704C69B00D7D319 /* AppleBundleUtil.mm */; };
+		BBBB0F072704DDDA00D7D319 /* MainEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0F062704DDDA00D7D319 /* MainEngineState.cpp */; };
+		BBBB0F082704DDDA00D7D319 /* MainEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0F062704DDDA00D7D319 /* MainEngineState.cpp */; };
 		BBBBDF612702465700D7D319 /* AndroidAssetHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEE727023E1400D7D319 /* AndroidAssetHandler.cpp */; };
 		BBBBDF632702465700D7D319 /* AppleAssetHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEEB27023E1400D7D319 /* AppleAssetHandler.cpp */; };
 		BBBBDF682702465700D7D319 /* AssetsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEEC27023E1400D7D319 /* AssetsManager.cpp */; };
@@ -132,7 +136,7 @@
 		BBBBDF8B2702467400D7D319 /* ThreadManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDED327023E1400D7D319 /* ThreadManager.cpp */; };
 		BBBBDF8E2702467700D7D319 /* DefaultEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFB27023E1400D7D319 /* DefaultEngineState.cpp */; };
 		BBBBDF902702467700D7D319 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFF27023E1400D7D319 /* Engine.cpp */; };
-		BBBBDF922702467700D7D319 /* EngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFD27023E1400D7D319 /* EngineController.cpp */; };
+		BBBBDF922702467700D7D319 /* EngineConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFD27023E1400D7D319 /* EngineConfig.cpp */; };
 		BBBBDF942702467700D7D319 /* EngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFC27023E1400D7D319 /* EngineState.cpp */; };
 		BBBBDF962702467A00D7D319 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7D27023E1400D7D319 /* Entity.cpp */; };
 		BBBBDF982702467A00D7D319 /* EntityController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7C27023E1400D7D319 /* EntityController.cpp */; };
@@ -193,7 +197,6 @@
 		BBBBE01F270246A000D7D319 /* ConfigLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDF3927023E1400D7D319 /* ConfigLoader.cpp */; };
 		BBBBE020270246A000D7D319 /* AssetsLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDF3A27023E1400D7D319 /* AssetsLoader.cpp */; };
 		BBBBE024270246A000D7D319 /* TextureLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDF2D27023E1400D7D319 /* TextureLoader.cpp */; };
-		BBBBE030270246B500D7D319 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD6D027023B5400D7D319 /* main.mm */; };
 		BBBBE0382702484700D7D319 /* b2_joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE3127023E1300D7D319 /* b2_joint.cpp */; };
 		BBBBE03A2702484700D7D319 /* b2_chain_circle_contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE3327023E1300D7D319 /* b2_chain_circle_contact.cpp */; };
 		BBBBE03E2702484700D7D319 /* b2_weld_joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE3727023E1300D7D319 /* b2_weld_joint.cpp */; };
@@ -246,10 +249,6 @@
 		BBBBE0722702487F00D7D319 /* file_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4727023E1100D7D319 /* file_sinks.cpp */; };
 		BBBBE0732702488000D7D319 /* color_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4827023E1100D7D319 /* color_sinks.cpp */; };
 		BBBBE0742702488000D7D319 /* spdlog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4927023E1100D7D319 /* spdlog.cpp */; };
-		BBBBE080270250D700D7D319 /* MainEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07D270250D700D7D319 /* MainEngineState.cpp */; };
-		BBBBE081270250D700D7D319 /* MainEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07D270250D700D7D319 /* MainEngineState.cpp */; };
-		BBBBE082270250D700D7D319 /* MainEngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07E270250D700D7D319 /* MainEngineController.cpp */; };
-		BBBBE083270250D700D7D319 /* MainEngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE07E270250D700D7D319 /* MainEngineController.cpp */; };
 		BBBBE08A2702580900D7D319 /* cfg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4327023E1100D7D319 /* cfg.cpp */; };
 		BBBBE08B2702580900D7D319 /* stdout_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4427023E1100D7D319 /* stdout_sinks.cpp */; };
 		BBBBE08C2702580900D7D319 /* fmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA4527023E1100D7D319 /* fmt.cpp */; };
@@ -316,7 +315,7 @@
 		BBBBE0EF2702584600D7D319 /* ThreadManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDED327023E1400D7D319 /* ThreadManager.cpp */; };
 		BBBBE0F22702584600D7D319 /* DefaultEngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFB27023E1400D7D319 /* DefaultEngineState.cpp */; };
 		BBBBE0F42702584600D7D319 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFF27023E1400D7D319 /* Engine.cpp */; };
-		BBBBE0F62702584600D7D319 /* EngineController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFD27023E1400D7D319 /* EngineController.cpp */; };
+		BBBBE0F62702584600D7D319 /* EngineConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFD27023E1400D7D319 /* EngineConfig.cpp */; };
 		BBBBE0F82702584600D7D319 /* EngineState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDEFC27023E1400D7D319 /* EngineState.cpp */; };
 		BBBBE0FA2702584600D7D319 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7D27023E1400D7D319 /* Entity.cpp */; };
 		BBBBE0FC2702584600D7D319 /* EntityController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDE7C27023E1400D7D319 /* EntityController.cpp */; };
@@ -805,8 +804,11 @@
 		BBBB0EFB2703C4A500D7D319 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
 		BBBB0EFD2703C4A500D7D319 /* stdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
 		BBBB0EFE2703E52B00D7D319 /* OpenGLWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLWrapper.hpp; sourceTree = "<group>"; };
+		BBBB0F012704C69B00D7D319 /* AppleBundleUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppleBundleUtil.mm; sourceTree = "<group>"; };
+		BBBB0F022704C69B00D7D319 /* AppleBundleUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AppleBundleUtil.hpp; sourceTree = "<group>"; };
+		BBBB0F052704DDAB00D7D319 /* MainEngineState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainEngineState.hpp; sourceTree = "<group>"; };
+		BBBB0F062704DDDA00D7D319 /* MainEngineState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineState.cpp; sourceTree = "<group>"; };
 		BBBBD6CF27023B5400D7D319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BBBBD6D027023B5400D7D319 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		BBBBD6D127023B5400D7D319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBBD6D327023B5400D7D319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBBBD6D427023B5400D7D319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -819,7 +821,6 @@
 		BBBBD6DC27023B5400D7D319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBBBD6E227023B5400D7D319 /* GowEngineMount.cbp */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.cbp; sourceTree = "<group>"; };
 		BBBBD6E327023B5400D7D319 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
-		BBBBD6E627023B5400D7D319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BBBBD6EB27023B5400D7D319 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
 		BBBBD70427023B5400D7D319 /* strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
 		BBBBD71027023B5400D7D319 /* MainActivity.kt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MainActivity.kt; sourceTree = "<group>"; };
@@ -829,9 +830,7 @@
 		BBBBD72927023B5400D7D319 /* GowEngineMount.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.vcxproj.filters; sourceTree = "<group>"; };
 		BBBBD72A27023B5400D7D319 /* GowEngineMount.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = GowEngineMount.sln; sourceTree = "<group>"; };
 		BBBBD72C27023B5400D7D319 /* GowEngineMount.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GowEngineMount.vcxproj; sourceTree = "<group>"; };
-		BBBBD72D27023B5400D7D319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BBBBD7E327023E0F00D7D319 /* GowEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GowEngine.hpp; sourceTree = "<group>"; };
-		BBBBD7E427023E0F00D7D319 /* AppleMacros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppleMacros.hpp; sourceTree = "<group>"; };
 		BBBBD96D27023E1000D7D319 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		BBBBD9B927023E1000D7D319 /* pattern_formatter-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pattern_formatter-inl.h"; sourceTree = "<group>"; };
 		BBBBD9BA27023E1000D7D319 /* fwd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
@@ -1194,8 +1193,8 @@
 		BBBBDEFA27023E1400D7D319 /* Engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Engine.hpp; sourceTree = "<group>"; };
 		BBBBDEFB27023E1400D7D319 /* DefaultEngineState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DefaultEngineState.cpp; sourceTree = "<group>"; };
 		BBBBDEFC27023E1400D7D319 /* EngineState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EngineState.cpp; sourceTree = "<group>"; };
-		BBBBDEFD27023E1400D7D319 /* EngineController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EngineController.cpp; sourceTree = "<group>"; };
-		BBBBDEFE27023E1400D7D319 /* EngineController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EngineController.hpp; sourceTree = "<group>"; };
+		BBBBDEFD27023E1400D7D319 /* EngineConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EngineConfig.cpp; sourceTree = "<group>"; };
+		BBBBDEFE27023E1400D7D319 /* EngineConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EngineConfig.hpp; sourceTree = "<group>"; };
 		BBBBDEFF27023E1400D7D319 /* Engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
 		BBBBDF0027023E1400D7D319 /* DefaultEngineState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DefaultEngineState.hpp; sourceTree = "<group>"; };
 		BBBBDF0127023E1400D7D319 /* EngineState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EngineState.hpp; sourceTree = "<group>"; };
@@ -1258,10 +1257,6 @@
 		BBBBDF4027023E1400D7D319 /* Box2DDebugRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Box2DDebugRenderer.hpp; sourceTree = "<group>"; };
 		BBBBDF4127023E1400D7D319 /* Box2DPhysicsController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Box2DPhysicsController.hpp; sourceTree = "<group>"; };
 		BBBBE07B27024D3B00D7D319 /* BuildMacros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BuildMacros.hpp; sourceTree = "<group>"; };
-		BBBBE07C270250D700D7D319 /* MainEngineController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainEngineController.hpp; sourceTree = "<group>"; };
-		BBBBE07D270250D700D7D319 /* MainEngineState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineState.cpp; sourceTree = "<group>"; };
-		BBBBE07E270250D700D7D319 /* MainEngineController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineController.cpp; sourceTree = "<group>"; };
-		BBBBE07F270250D700D7D319 /* MainEngineState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainEngineState.hpp; sourceTree = "<group>"; };
 		BBBBE18E2702899D00D7D319 /* FileUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtil.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2018,10 +2013,8 @@
 		BBBBD6C327023B5400D7D319 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBE07E270250D700D7D319 /* MainEngineController.cpp */,
-				BBBBE07C270250D700D7D319 /* MainEngineController.hpp */,
-				BBBBE07D270250D700D7D319 /* MainEngineState.cpp */,
-				BBBBE07F270250D700D7D319 /* MainEngineState.hpp */,
+				BBBB0F062704DDDA00D7D319 /* MainEngineState.cpp */,
+				BBBB0F052704DDAB00D7D319 /* MainEngineState.hpp */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -2051,7 +2044,6 @@
 			children = (
 				BBBBD6CF27023B5400D7D319 /* Assets.xcassets */,
 				BBBBD6D127023B5400D7D319 /* Info.plist */,
-				BBBBD6D027023B5400D7D319 /* main.mm */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -2076,7 +2068,6 @@
 			isa = PBXGroup;
 			children = (
 				BBBBD6E227023B5400D7D319 /* GowEngineMount.cbp */,
-				BBBBD6E627023B5400D7D319 /* main.cpp */,
 				BBBBD6E327023B5400D7D319 /* run.sh */,
 			);
 			path = linux;
@@ -2181,7 +2172,6 @@
 				BBBBD72A27023B5400D7D319 /* GowEngineMount.sln */,
 				BBBBD72C27023B5400D7D319 /* GowEngineMount.vcxproj */,
 				BBBBD72927023B5400D7D319 /* GowEngineMount.vcxproj.filters */,
-				BBBBD72D27023B5400D7D319 /* main.cpp */,
 			);
 			path = windows;
 			sourceTree = "<group>";
@@ -2208,7 +2198,6 @@
 		BBBBD7E227023E0F00D7D319 /* GowEngine */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBD7E427023E0F00D7D319 /* AppleMacros.hpp */,
 				BBBBE07B27024D3B00D7D319 /* BuildMacros.hpp */,
 				BBBBD7E327023E0F00D7D319 /* GowEngine.hpp */,
 			);
@@ -2850,6 +2839,8 @@
 				BBBBDEF427023E1400D7D319 /* AndroidAssetHandler.hpp */,
 				BBBBDEEB27023E1400D7D319 /* AppleAssetHandler.cpp */,
 				BBBBDEF827023E1400D7D319 /* AppleAssetHandler.hpp */,
+				BBBB0F022704C69B00D7D319 /* AppleBundleUtil.hpp */,
+				BBBB0F012704C69B00D7D319 /* AppleBundleUtil.mm */,
 				BBBBDEF727023E1400D7D319 /* AssetHandler.hpp */,
 				BBBB057E2703A4C300D7D319 /* AssetHandlerFactory.cpp */,
 				BBBBDEF127023E1400D7D319 /* AssetHandlerFactory.hpp */,
@@ -2878,8 +2869,8 @@
 				BBBBDF0027023E1400D7D319 /* DefaultEngineState.hpp */,
 				BBBBDEFF27023E1400D7D319 /* Engine.cpp */,
 				BBBBDEFA27023E1400D7D319 /* Engine.hpp */,
-				BBBBDEFD27023E1400D7D319 /* EngineController.cpp */,
-				BBBBDEFE27023E1400D7D319 /* EngineController.hpp */,
+				BBBBDEFD27023E1400D7D319 /* EngineConfig.cpp */,
+				BBBBDEFE27023E1400D7D319 /* EngineConfig.hpp */,
 				BBBBDEFC27023E1400D7D319 /* EngineState.cpp */,
 				BBBBDF0127023E1400D7D319 /* EngineState.hpp */,
 			);
@@ -2969,17 +2960,17 @@
 		BBBBDF3127023E1400D7D319 /* rapidjson */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBDF3227023E1400D7D319 /* RendererLoader.hpp */,
-				BBBBDF3327023E1400D7D319 /* EntityLayoutLoader.cpp */,
-				BBBBDF3427023E1400D7D319 /* ConfigLoader.hpp */,
-				BBBBDF3527023E1400D7D319 /* AssetsLoader.hpp */,
-				BBBBDF3627023E1400D7D319 /* EntityManagerLoader.cpp */,
-				BBBBDF3727023E1400D7D319 /* RendererLoader.cpp */,
-				BBBBDF3827023E1400D7D319 /* EntityLayoutLoader.hpp */,
-				BBBBDF3927023E1400D7D319 /* ConfigLoader.cpp */,
 				BBBBDF3A27023E1400D7D319 /* AssetsLoader.cpp */,
-				BBBBDF3B27023E1400D7D319 /* RapidJSONUtil.hpp */,
+				BBBBDF3527023E1400D7D319 /* AssetsLoader.hpp */,
+				BBBBDF3927023E1400D7D319 /* ConfigLoader.cpp */,
+				BBBBDF3427023E1400D7D319 /* ConfigLoader.hpp */,
+				BBBBDF3327023E1400D7D319 /* EntityLayoutLoader.cpp */,
+				BBBBDF3827023E1400D7D319 /* EntityLayoutLoader.hpp */,
+				BBBBDF3627023E1400D7D319 /* EntityManagerLoader.cpp */,
 				BBBBDF3C27023E1400D7D319 /* EntityManagerLoader.hpp */,
+				BBBBDF3B27023E1400D7D319 /* RapidJSONUtil.hpp */,
+				BBBBDF3727023E1400D7D319 /* RendererLoader.cpp */,
+				BBBBDF3227023E1400D7D319 /* RendererLoader.hpp */,
 			);
 			path = rapidjson;
 			sourceTree = "<group>";
@@ -3124,6 +3115,7 @@
 				BBBBE05C2702485100D7D319 /* b2_draw.cpp in Sources */,
 				BBBBE05D2702485100D7D319 /* b2_timer.cpp in Sources */,
 				BBBB0E7D2703A95D00D7D319 /* SimpleMultiPlayer.cpp in Sources */,
+				BBBB0F072704DDDA00D7D319 /* MainEngineState.cpp in Sources */,
 				BBBB0E692703A95D00D7D319 /* DirectXTKAudioEngine.cpp in Sources */,
 				BBBBE05E2702485100D7D319 /* b2_block_allocator.cpp in Sources */,
 				BBBBE06E2702487F00D7D319 /* cfg.cpp in Sources */,
@@ -3186,7 +3178,6 @@
 				BBBBE04C2702484800D7D319 /* b2_polygon_contact.cpp in Sources */,
 				BBBBE04D2702484800D7D319 /* b2_edge_polygon_contact.cpp in Sources */,
 				BBBBE04E2702484800D7D319 /* b2_edge_circle_contact.cpp in Sources */,
-				BBBBE082270250D700D7D319 /* MainEngineController.cpp in Sources */,
 				BBBBE04F2702484800D7D319 /* b2_gear_joint.cpp in Sources */,
 				BBBBE0502702484800D7D319 /* b2_friction_joint.cpp in Sources */,
 				BBBBE0512702484800D7D319 /* b2_wheel_joint.cpp in Sources */,
@@ -3210,10 +3201,10 @@
 				BBBBE0122702469800D7D319 /* TopDownPhysicsController.cpp in Sources */,
 				BBBBDFEE2702469400D7D319 /* Color.cpp in Sources */,
 				BBBBDFF02702469500D7D319 /* FontBatcher.cpp in Sources */,
+				BBBB0F032704C69B00D7D319 /* AppleBundleUtil.mm in Sources */,
 				BBBBE014270246A000D7D319 /* Box2DPhysicsController.cpp in Sources */,
 				BBBB05832703A4F800D7D319 /* AudioEngineFactory.cpp in Sources */,
 				BBBBE015270246A000D7D319 /* Box2DDebugRenderer.cpp in Sources */,
-				BBBBE030270246B500D7D319 /* main.mm in Sources */,
 				BBBB0E632703A95D00D7D319 /* ObjectALHelper.mm in Sources */,
 				BBBBE019270246A000D7D319 /* EntityLayoutLoader.cpp in Sources */,
 				BBBB0E732703A95D00D7D319 /* OboeAudioEngine.cpp in Sources */,
@@ -3266,7 +3257,6 @@
 				BBBBDFB32702468800D7D319 /* OverlapTester.cpp in Sources */,
 				BBBB0E6D2703A95D00D7D319 /* InputStream.cpp in Sources */,
 				BBBBDF862702467400D7D319 /* RTTI.cpp in Sources */,
-				BBBBE080270250D700D7D319 /* MainEngineState.cpp in Sources */,
 				BBBBDFAB2702467D00D7D319 /* InputManager.cpp in Sources */,
 				BBBBDFAD2702467D00D7D319 /* InputState.cpp in Sources */,
 				BBBBDF8E2702467700D7D319 /* DefaultEngineState.cpp in Sources */,
@@ -3280,7 +3270,7 @@
 				BBBBDFA32702467A00D7D319 /* EntityRegistry.cpp in Sources */,
 				BBBBDFA52702467A00D7D319 /* EntityRenderController.cpp in Sources */,
 				BBBBDF902702467700D7D319 /* Engine.cpp in Sources */,
-				BBBBDF922702467700D7D319 /* EngineController.cpp in Sources */,
+				BBBBDF922702467700D7D319 /* EngineConfig.cpp in Sources */,
 				BBBBDF942702467700D7D319 /* EngineState.cpp in Sources */,
 				BBBBDF8B2702467400D7D319 /* ThreadManager.cpp in Sources */,
 				BBBBDF722702465800D7D319 /* WindowsAssetHandler.cpp in Sources */,
@@ -3292,8 +3282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBBE083270250D700D7D319 /* MainEngineController.cpp in Sources */,
 				BBBBE08A2702580900D7D319 /* cfg.cpp in Sources */,
+				BBBB0F042704C69B00D7D319 /* AppleBundleUtil.mm in Sources */,
 				BBBBE08B2702580900D7D319 /* stdout_sinks.cpp in Sources */,
 				BBBBE08C2702580900D7D319 /* fmt.cpp in Sources */,
 				BBBBE08D2702580900D7D319 /* async.cpp in Sources */,
@@ -3344,7 +3334,7 @@
 				BBBB0E822703A95D00D7D319 /* OboeSound.cpp in Sources */,
 				BBBB0E742703A95D00D7D319 /* OboeAudioEngine.cpp in Sources */,
 				BBBBE0F42702584600D7D319 /* Engine.cpp in Sources */,
-				BBBBE0F62702584600D7D319 /* EngineController.cpp in Sources */,
+				BBBBE0F62702584600D7D319 /* EngineConfig.cpp in Sources */,
 				BBBB0E702703A95D00D7D319 /* WavFmtChunkHeader.cpp in Sources */,
 				BBBBE0F82702584600D7D319 /* EngineState.cpp in Sources */,
 				BBBBE0FA2702584600D7D319 /* Entity.cpp in Sources */,
@@ -3408,6 +3398,7 @@
 				BBBBE16A2702584900D7D319 /* ShaderManager.cpp in Sources */,
 				BBBBE16D2702584A00D7D319 /* SpriteBatcher.cpp in Sources */,
 				BBBBE1702702584A00D7D319 /* TextureManager.cpp in Sources */,
+				BBBB0F082704DDDA00D7D319 /* MainEngineState.cpp in Sources */,
 				BBBBE1742702584A00D7D319 /* TriangleBatcher.cpp in Sources */,
 				BBBBE1762702584A00D7D319 /* TopDownPhysicsController.cpp in Sources */,
 				BBBB0E762703A95D00D7D319 /* SampleBuffer.cpp in Sources */,
@@ -3471,7 +3462,6 @@
 				BBBBE0C52702582100D7D319 /* b2_time_of_impact.cpp in Sources */,
 				BBBBE0C62702582100D7D319 /* b2_distance.cpp in Sources */,
 				BBBBE0902702580900D7D319 /* spdlog.cpp in Sources */,
-				BBBBE081270250D700D7D319 /* MainEngineState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

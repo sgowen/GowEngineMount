@@ -1,27 +1,12 @@
 //
-//  MainEngineState.cpp
+//  main.cpp
 //  GowEngineMount
 //
-//  Created by Stephen Gowen on 1/27/21.
-//  Copyright © 2021 Stephen Gowen. All rights reserved.
+//  Created by Stephen Gowen on 9/29/21.
+//  Copyright © 2020 Stephen Gowen. All rights reserved.
 //
 
 #include "MainEngineState.hpp"
-
-void MainEngineState::onEnter(Engine* e)
-{
-    // Empty
-}
-
-void MainEngineState::onExit(Engine* e)
-{
-    // Empty
-}
-
-void MainEngineState::onUpdate(Engine* e)
-{
-    // Empty
-}
 
 void MainEngineState::render(Renderer& r)
 {
@@ -35,3 +20,13 @@ MainEngineState::MainEngineState() : EngineState("data/json/assets_main.json", "
 {
     // Empty
 }
+
+#if IS_DESKTOP
+int main(void)
+{
+    EngineConfig config("data/json/config.json");
+    GlfwMain::exec(config, MainEngineState::getInstance());
+
+    return 0;
+}
+#endif /* IS_DESKTOP */

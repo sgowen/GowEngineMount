@@ -6,10 +6,10 @@
 //  Copyright © 2021 Stephen Gowen. All rights reserved.
 //
 
-#include "MainEngineController.hpp"
+#include "MainEngineState.hpp"
 
 Engine* _engine = nullptr;
-MainEngineController* _controller = nullptr;
+EngineConfig* _config = nullptr;
 
 extern "C"
 JNIEXPORT void JNICALL
@@ -87,11 +87,11 @@ extern "C"
 JNIEXPORT void JNICALL
 Java_com_gowenginemount_android_Engine_init(JNIEnv *env, jobject thiz, jobject asset_manager)
 {
-    assert(_controller == nullptr);
-    _controller = new MainEngineController(env, asset_manager);
+    assert(_config == nullptr);
+    _config = new EngineConfig("data/json/config.json", env, asset_manager);
 
     assert(_engine == nullptr);
-    _engine = new Engine(*_controller);
+    _engine = new Engine(*_config, MainEngineState::getInstance());
 }
 
 extern "C"
@@ -101,6 +101,6 @@ Java_com_gowenginemount_android_Engine_deinit(JNIEnv *env, jobject thiz)
     delete _engine;
     _engine = nullptr;
 
-    delete _controller;
-    _controller = nullptr;
+    delete _config;
+    _config = nullptr;
 }
