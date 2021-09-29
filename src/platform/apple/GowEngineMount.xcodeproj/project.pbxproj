@@ -791,7 +791,6 @@
 		BBBB0E5A2703A95D00D7D319 /* SimpleMultiPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMultiPlayer.cpp; sourceTree = "<group>"; };
 		BBBB0E5B2703A95D00D7D319 /* SampleSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleSource.cpp; sourceTree = "<group>"; };
 		BBBB0E5C2703A95D00D7D319 /* OboeSound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OboeSound.cpp; sourceTree = "<group>"; };
-		BBBB0EEA2703BFD200D7D319 /* OpenGLWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLWrapper.hpp; sourceTree = "<group>"; };
 		BBBB0EEC2703C4A500D7D319 /* nuklear_glfw_gl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nuklear_glfw_gl2.h; sourceTree = "<group>"; };
 		BBBB0EED2703C4A500D7D319 /* linmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linmath.h; sourceTree = "<group>"; };
 		BBBB0EEE2703C4A500D7D319 /* stb_image_write.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
@@ -2217,7 +2216,6 @@
 				BBBBD7E427023E0F00D7D319 /* AppleMacros.hpp */,
 				BBBBE07B27024D3B00D7D319 /* BuildMacros.hpp */,
 				BBBBD7E327023E0F00D7D319 /* GowEngine.hpp */,
-				BBBB0EEA2703BFD200D7D319 /* OpenGLWrapper.hpp */,
 			);
 			path = GowEngine;
 			sourceTree = "<group>";
