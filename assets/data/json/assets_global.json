@@ -49,11 +49,13 @@
         },
         {
           "name": "u_LightPositions",
-          "type": "vec4"
+          "type": "vec4",
+          "count": 12
         },
         {
           "name": "u_LightColors",
-          "type": "vec4"
+          "type": "vec4",
+          "count": 12
         },
         {
           "name": "u_AmbientColor",
