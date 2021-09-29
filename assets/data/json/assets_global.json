@@ -39,6 +39,51 @@
       ]
     },
     {
+      "name": "lights",
+      "vertexShaderFilePath": "data/shaders/lights.vsh",
+      "fragmentShaderFilePath": "data/shaders/lights.fsh",
+      "uniforms": [
+        {
+          "name": "u_Matrix",
+          "type": "mat4"
+        },
+        {
+          "name": "u_LightPositions",
+          "type": "vec4"
+        },
+        {
+          "name": "u_LightColors",
+          "type": "vec4"
+        },
+        {
+          "name": "u_AmbientColor",
+          "type": "vec4"
+        },
+        {
+          "name": "u_Falloff",
+          "type": "vec4"
+        },
+        {
+          "name": "u_NumLights",
+          "type": "ivec4"
+        },
+        {
+          "name": "u_Texture",
+          "type": "sampler2D"
+        },
+        {
+          "name": "u_NormalMap",
+          "type": "sampler2D"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "a_Position",
+          "type": "vec2"
+        }
+      ]
+    },
+    {
       "name": "texture",
       "vertexShaderFilePath": "data/shaders/texture.vsh",
       "fragmentShaderFilePath": "data/shaders/texture.fsh",
