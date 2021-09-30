@@ -808,6 +808,7 @@
 		BBBB0F022704C69B00D7D319 /* AppleBundleUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AppleBundleUtil.hpp; sourceTree = "<group>"; };
 		BBBB0F052704DDAB00D7D319 /* MainEngineState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainEngineState.hpp; sourceTree = "<group>"; };
 		BBBB0F062704DDDA00D7D319 /* MainEngineState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainEngineState.cpp; sourceTree = "<group>"; };
+		BBBB0F0B270614AD00D7D319 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
 		BBBBD6CF27023B5400D7D319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBBD6D127023B5400D7D319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBBD6D327023B5400D7D319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -2101,6 +2102,7 @@
 		BBBBD6ED27023B5400D7D319 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				BBBB0F0B270614AD00D7D319 /* AndroidManifest.xml */,
 				BBBBD71227023B5400D7D319 /* cpp */,
 				BBBBD70C27023B5400D7D319 /* java */,
 				BBBBD6EE27023B5400D7D319 /* res */,
