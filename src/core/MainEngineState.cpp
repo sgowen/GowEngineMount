@@ -16,7 +16,7 @@ void MainEngineState::onRender(Renderer& r)
     r.renderToScreen();
 }
 
-MainEngineState::MainEngineState() : EngineState("data/json/config_MainEngineState.json")
+MainEngineState::MainEngineState() : EngineState("data/json/MainEngineState_Config.json")
 {
     // Empty
 }
@@ -24,7 +24,7 @@ MainEngineState::MainEngineState() : EngineState("data/json/config_MainEngineSta
 #if IS_DESKTOP
 int main(void)
 {
-    EngineConfig config("data/json/config_engine.json");
+    EngineConfig config("data/json/Engine_Config.json");
     GlfwMain::exec(config, MainEngineState::getInstance());
 
     return 0;
